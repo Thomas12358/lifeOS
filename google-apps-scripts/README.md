@@ -1,57 +1,31 @@
 ﻿# Google Apps Scripts
 
+A collection of AI-powered automation scripts for Google Workspace.
 
-## Available Scripts
+---
 
-### Disco (Customer Discovery)
+## Scripts
 
-Disco is a customer discovery tool that uses Google's Gemini AI with Google Search grounding to find potential sales leads. It searches for individuals matching specific job titles and industries, returning their names, current positions, companies, and direct website links.
+### 🔍 Disco — Customer Discovery
 
-**Features:**
-- AI-powered lead discovery using Gemini 2.5 Flash
-- Google Search grounding for real-time web data
-- Batch processing for multiple job titles and industries
-- Secure API key management
-- Automated output to a Google Sheet
+**AI-powered lead discovery tool**
 
-**Setup:**
-1. [Copy the Disco Sheet](https://docs.google.com/spreadsheets/d/124o3VQippZKDitiJLsPbS2D8xLSKj6EUTHXa-gO0L2s/copy) to your Google Drive
-2. Open **Extensions** > **Apps Script**
-3. Add your Gemini API key via the **Set API Key…** menu option
-4. Use the **Find New Customers** button to start discovering leads
+Find potential sales leads using Google's Gemini AI with real-time web search grounding.
 
-**Requirements:**
-- [Gemini API key](https://ai.google.dev/pricing) (requires setup in Google Cloud)
+- **Key Features:** Lead discovery, batch processing, real-time data, Google Sheet export
+- **Requirements:** Gemini API key
+- **Setup:** [Copy Sheet](https://docs.google.com/spreadsheets/d/124o3VQippZKDitiJLsPbS2D8xLSKj6EUTHXa-gO0L2s/copy) → Extensions > Apps Script → Set API Key
+- **[More information](disco/README.md)**
 
-### Dodo (Inbox Assistant)
+---
 
-Dodo is an AI-powered inbox assistant that automatically extracts actionable tasks from your emails and tags them for follow-up. It uses Gemini AI to intelligently parse emails, identify high-priority actions directed at you, and organize them into a trackable task system.
+### 📧 Dodo — Inbox Assistant
 
-**Features:**
-- Automatic task extraction from Gmail using AI
-- Smart email tagging based on user-defined labels
-- Auto-categorization of emails (AI-generated tags)
-- Time-based checking (configurable intervals)
-- Task tracking with due dates and urgency levels
-- Privacy-focused email processing with sensitive data redaction
-- Kanban-style workflow (Do → Doing → Done sheets)
+**Automatically extract tasks from your emails**
 
-**Setup:**
-1. [Copy the Dodo Sheet](https://docs.google.com/spreadsheets/d/1tdZuVwMfPCt8fJwxI1ABaO5Dv54fSJ-6q6Sb7U7hZxc/copy) to your Google Drive
-2. Open **Extensions** > **Apps Script**
-3. Click **Run Setup** to initialize the script and connect to your Gmail
-4. Enter your name, Gemini API key, and label preferences in the Setup tab
-5. Use the **Check Emails for Tasks** button to start processing your inbox
+AI-powered email parser that identifies actionable tasks and organizes them into a trackable workflow.
 
-**Requirements:**
-- [Gemini API key](https://ai.google.dev/pricing) (requires setup in Google Cloud)
-- Gmail inbox access (script uses standard Gmail scopes)
-
-## Contributing
-
-When adding new scripts:
-
-1. Create a new directory for each script project
-2. Include a `README.md` explaining what the script does
-3. Include all `.gs.js` files needed for the script
-4. Document any required setup or configuration
+- **Key Features:** Auto task extraction, smart tagging, Kanban workflow, privacy-focused
+- **Requirements:** Gemini API key, Gmail access
+- **Setup:** [Copy Sheet](https://docs.google.com/spreadsheets/d/1tdZuVwMfPCt8fJwxI1ABaO5Dv54fSJ-6q6Sb7U7hZxc/copy) → Extensions > Apps Script → Run Setup
+- **[More information](dodo/README.md)**

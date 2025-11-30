@@ -1,43 +1,5 @@
 ﻿# Google Apps Scripts
 
-This directory contains Google Apps Script projects designed to work with Google Sheets and other Google Workspace applications.
-
-## What are Google Apps Scripts?
-
-[Google Apps Script](https://developers.google.com/apps-script) is a cloud-based scripting language for lightweight application development in the Google Workspace platform. It provides easy ways to automate tasks, create custom functions, and integrate with Google services.
-
-## How to Use These Scripts
-
-### Method 1: Copy and Paste
-
-1. Open your Google Sheet
-2. Go to **Extensions** > **Apps Script**
-3. Delete any existing code in the editor
-4. Copy the script code from the desired `.gs` file
-5. Paste it into the Apps Script editor
-6. Save the project (Ctrl/Cmd + S)
-7. Run the script or use the custom functions
-
-### Method 2: Using clasp (Command Line Apps Script)
-
-For more advanced users, you can use [clasp](https://github.com/google/clasp) to manage your Apps Scripts locally:
-
-```bash
-# Install clasp globally
-npm install -g @google/clasp
-
-# Login to your Google account
-clasp login
-
-# Clone an existing Apps Script project
-clasp clone <script-id>
-
-# Push local changes to Apps Script
-clasp push
-
-# Pull remote changes
-clasp pull
-```
 
 ## Available Scripts
 
@@ -53,7 +15,7 @@ Disco is a customer discovery tool that uses Google's Gemini AI with Google Sear
 - Automated output to a Google Sheet
 
 **Setup:**
-1. [Copy the Disco Sheet](https://docs.google.com/spreadsheets/d/124o3VQippZKDitiJLsPbS2D8xLSKj6EUTHXa-gO0L2s/edit) to your Google Drive
+1. [Copy the Disco Sheet](https://docs.google.com/spreadsheets/d/124o3VQippZKDitiJLsPbS2D8xLSKj6EUTHXa-gO0L2s/copy) to your Google Drive
 2. Open **Extensions** > **Apps Script**
 3. Add your Gemini API key via the **Set API Key…** menu option
 4. Use the **Find New Customers** button to start discovering leads
@@ -75,7 +37,7 @@ Dodo is an AI-powered inbox assistant that automatically extracts actionable tas
 - Kanban-style workflow (Do → Doing → Done sheets)
 
 **Setup:**
-1. [Copy the Dodo Sheet](https://docs.google.com/spreadsheets/d/1tdZuVwMfPCt8fJwxI1ABaO5Dv54fSJ-6q6Sb7U7hZxc/edit) to your Google Drive
+1. [Copy the Dodo Sheet](https://docs.google.com/spreadsheets/d/1tdZuVwMfPCt8fJwxI1ABaO5Dv54fSJ-6q6Sb7U7hZxc/copy) to your Google Drive
 2. Open **Extensions** > **Apps Script**
 3. Click **Run Setup** to initialize the script and connect to your Gmail
 4. Enter your name, Gemini API key, and label preferences in the Setup tab

@@ -8,7 +8,7 @@ Find potential sales leads using Google's Gemini AI with real-time web search gr
 - **Key Features:** Lead discovery, batch processing, real-time data, Google Sheet export
 - **Requirements:** Gemini API key
 - **Setup:** [Copy Sheet](https://docs.google.com/spreadsheets/d/124o3VQippZKDitiJLsPbS2D8xLSKj6EUTHXa-gO0L2s/copy) → Extensions > Apps Script → Set API Key
-- **[More information](disco/README.md)**
+- **[More information](https://github.com/Thomas12358/lifeOS/blob/main/google-apps-scripts/disco/README.md)**
 
 ---
 
@@ -21,4 +21,4 @@ AI-powered email parser that identifies actionable tasks and organizes them into
 - **Key Features:** Auto task extraction, smart tagging, Kanban workflow, privacy-focused
 - **Requirements:** Gemini API key, Gmail access
 - **Setup:** [Copy Sheet](https://docs.google.com/spreadsheets/d/1tdZuVwMfPCt8fJwxI1ABaO5Dv54fSJ-6q6Sb7U7hZxc/copy) → Extensions > Apps Script → Run Setup
-- **[More information](dodo/README.md)**
+- **[More information](https://github.com/Thomas12358/lifeOS/blob/main/google-apps-scripts/dodo/README.md)**

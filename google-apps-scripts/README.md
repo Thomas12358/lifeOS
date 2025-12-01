@@ -1,11 +1,4 @@
-﻿# Google Apps Scripts
-
-A collection of AI-powered automation scripts for Google Workspace.
-
----
-
-## Scripts
-
+﻿
 ### 🔍 Disco — Customer Discovery
 
 **AI-powered lead discovery tool**
